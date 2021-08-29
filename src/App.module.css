@@ -3,6 +3,19 @@
   margin: 0 auto;
 }
 
+.backgroundSection {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.divider {
+  margin: 0 auto;
+  content: "";
+  width: 784px;
+  height: 0;
+  border: 2px solid #dfdfdf;
+}
+
 .intro {
   height: 616px;
   width: 100%;
@@ -50,4 +63,84 @@
 .bannerImage {
   margin: 170px 100px 0 0;
   justify-self: center;
+}
+
+.avaliableProfile {
+  width: 100%;
+  height: 112px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+}
+
+.avaliableProfile img {
+  margin-right: 32px;
+}
+
+.linkToProfile {
+  margin-right: 2px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #5e20a4;
+}
+
+.avaliableSchedules {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+.exhibitionSection {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.exhibitionSectionTitle {
+  max-width: 428px;
+  margin: 120px 0 40px 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #3d3d3d;
+}
+
+.exhibitionSectionText {
+  max-width: 444px;
+  margin-bottom: 40px;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4a4a4a;
+}
+
+.inTextLink {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #5e20a4;
+  cursor: pointer;
+}
+
+.getStartedLink {
+  margin-bottom: 120px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #5e20a4;
+  cursor: pointer;
+}
+
+.exhibitionSectionImage {
+  margin: 120px 0;
 }

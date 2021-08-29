@@ -1,0 +1,53 @@
+.container {
+  width: 1184px;
+  margin: 0 auto;
+}
+
+.intro {
+  height: 616px;
+  width: 100%;
+  background: url("./assets/background-intro.png"),
+    linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%),
+    no-repeat;
+}
+
+.introContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.intro h1 {
+  max-width: 490px;
+  margin: 200px 0 24px 0;
+}
+
+.titleAndDescription p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.playButton {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.playButton img {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.playButton span {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.bannerImage {
+  margin: 170px 100px 0 0;
+  justify-self: center;
+}

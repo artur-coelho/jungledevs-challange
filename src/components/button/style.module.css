@@ -1,0 +1,14 @@
+.primaryButton {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+  padding: 12px 20px;
+  justify-self: flex-end;
+  background-color: #00a870;
+  border-radius: 4px;
+}

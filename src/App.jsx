@@ -5,12 +5,13 @@ import BANNERINTRO from './assets/image-intro.png'
 import PLAYBUTTON from './assets/play-button.svg'
 import PROFILEIMG from './assets/profile-image.png'
 import NOTEBOOKIMG from './assets/image-notebook.png'
+import Form from './components/form';
 
 const App = () => {
   return (
     <div className={styles.App}>
       <Header />
-      <section className={styles.intro}>
+{/* {      <section className={styles.intro}>
         <div className={styles.container}>
           <div className={styles.introContent}>
             <div className={styles.titleAndDescription}>
@@ -37,6 +38,7 @@ const App = () => {
            Wednesday, Thursday, Friday - 7:30 - 5:30
         </span>
       </section>
+
       <section className={styles.backgroundSection}>
         <div className={styles.container}>          
           <section className={styles.exhibitionSection}>
@@ -56,6 +58,21 @@ const App = () => {
         </div>
         <hr className={styles.divider}></hr>
       </section>
+
+      <section className={styles.backgroundSection}>
+        <div className={styles.container}>
+          <section className={styles.emailFormSection}>
+            <h3 className={styles.emailFormSectionTitle}>
+              Are you a parent without a nanny and looking to share?
+            </h3>
+            <p className={styles.emailFormSectionText}>
+            Leave us your name and email and we’ll update you as soon as a share becomes available in your area!
+            </p>
+            <Form/>
+          </section>
+        </div>
+        <hr className={styles.divider}></hr>
+      </section>} */}
       
     </div>
   );

@@ -1,0 +1,16 @@
+.formInput {
+  width: 232px;
+  height: 48px;
+  margin-right: 12px;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  color: #3d3d3d;
+}

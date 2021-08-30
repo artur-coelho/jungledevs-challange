@@ -34,3 +34,15 @@
   align-items: center;
   gap: 22px;
 }
+
+@media screen and (max-width: 421px) {
+  .header a {
+    color: red;
+  }
+  .headerMenu {
+    display: none;
+  }
+  .menuRight a {
+    display: none;
+  }
+}

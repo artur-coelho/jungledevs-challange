@@ -144,3 +144,25 @@
 .exhibitionSectionImage {
   margin: 120px 0;
 }
+
+.emailFormSection {
+  padding: 64px 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.emailFormSectionTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #3d3d3d;
+}
+
+.emailFormSectionText {
+  margin-top: 16px;
+  margin-bottom: 74px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #3d3d3d;
+}

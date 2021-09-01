@@ -205,3 +205,44 @@
   color: #5e20a4;
   cursor: pointer;
 }
+
+.longTerm {
+  padding: 96px 100px 104px 100px;
+  text-align: center;
+}
+
+.longTermTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.longTermText {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #3d3d3d;
+  margin: 40px 100px;
+}
+
+.longTermLink {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #5e20a4;
+  cursor: pointer;
+}
+
+.billingHisotyImg {
+  margin-top: 64px;
+}
+
+.shareDiary {
+  padding: 96px 200px 120px 200px;
+  display: flex;
+  justify-content: center;
+}

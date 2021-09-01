@@ -7,6 +7,8 @@ import PLAYBUTTON from './assets/play-button.svg'
 import PROFILEIMG from './assets/profile-image.png'
 import NOTEBOOKIMG from './assets/image-notebook.png'
 import SHAREDIMG from './assets/example-image-sec3.png'
+import BILLINGHISTORY from './assets/image-billing-hisotry.png'
+import NOTESTABLET from './assets/image-notes-and-tablet.png'
 import Form from './components/form';
 
 const App = () => {
@@ -92,6 +94,33 @@ const App = () => {
           </section>
         </div>
         <hr className={styles.divider}></hr>
+      </section>
+
+      <section className={styles.backgroundSection}>
+        <div className={styles.container}>
+          <section className={styles.longTerm}>
+            <h2 className={styles.longTermTitle}>
+              A framework built for the long term
+            </h2>
+            <p className={styles.longTermText}>
+              Childcare is for the long term. And you need a framework you can count on that gives your share long term viability and success. That’s why we’ve defined Hapu around our three tribal principles; clearly defined process, transparency over money and equality of participation.
+            </p>
+            <span className={styles.longTermLink}>
+            Read how Hapu’s tribal background defines our app 
+            </span>
+            <img src={BILLINGHISTORY} alt="interface for billing history" className={styles.billingHisotyImg}/>
+          </section>
+        </div>
+        <hr className={styles.divider}></hr>
+      </section>
+
+      <section className={styles.backgroundSection}>
+        <div className={styles.container}>
+          <section className={styles.shareDiary}>
+            <img src={NOTESTABLET} alt="Tablets and notes with diary" />
+            
+          </section>
+        </div>
       </section>
       
     </div>

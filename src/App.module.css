@@ -99,6 +99,7 @@
 .exhibitionSection {
   display: grid;
   grid-template-columns: 50% 50%;
+  padding-left: 100px;
 }
 
 .exhibitionSectionTitle {
@@ -121,7 +122,7 @@
 }
 
 .inTextLink {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -132,7 +133,7 @@
 
 .getStartedLink {
   margin-bottom: 120px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -165,4 +166,42 @@
   font-size: 18px;
   text-align: center;
   color: #3d3d3d;
+}
+
+.sharedPayments {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 96px 100px;
+}
+
+.sharedPayContent {
+  align-self: flex-end;
+}
+
+.sharedPayTitle {
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  align-items: center;
+  color: #3d3d3d;
+}
+
+.sharedPayText {
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  color: #3d3d3d;
+}
+
+.sharedPaySpan {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #5e20a4;
+  cursor: pointer;
 }

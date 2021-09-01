@@ -6,6 +6,7 @@ import BANNERINTRO from './assets/image-intro.png'
 import PLAYBUTTON from './assets/play-button.svg'
 import PROFILEIMG from './assets/profile-image.png'
 import NOTEBOOKIMG from './assets/image-notebook.png'
+import SHAREDIMG from './assets/example-image-sec3.png'
 import Form from './components/form';
 
 const App = () => {
@@ -70,6 +71,24 @@ const App = () => {
             Leave us your name and email and we’ll update you as soon as a share becomes available in your area!
             </p>
             <Form/>
+          </section>
+        </div>
+        <hr className={styles.divider}></hr>
+      </section>
+
+      <section className={styles.backgroundSection}>
+        <div className={styles.container}>
+          <section className={styles.sharedPayments}>
+            <img src={SHAREDIMG} alt="interface for shared payments" />
+            <div className={styles.sharedPayContent}>
+              <h2 className={styles.sharedPayTitle}>Shared payments made simple</h2>
+              <p className={styles.sharedPayText}>
+              Sometimes it’s hard enough just sharing a restaurant bill. Try sharing that bill week in, week out and you might encounter more than a few snares. But not with Hapu. Simply set your rates and our automated payment system takes care of the rest. You need never talk money or who owes what.
+              </p>
+              <span className={styles.sharedPaySpan}>
+                Read how Bridget’s share (without Hapu) ended over $15
+              </span>
+            </div>
           </section>
         </div>
         <hr className={styles.divider}></hr>

@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './App.module.css';
 import { BrowserRouter, Link } from 'react-router-dom';
 import Header from './header';
@@ -11,7 +12,7 @@ const App = () => {
   return (
     <div className={styles.App}>
       <Header />
-{/* {      <section className={styles.intro}>
+      <section className={styles.intro}>
         <div className={styles.container}>
           <div className={styles.introContent}>
             <div className={styles.titleAndDescription}>
@@ -72,7 +73,7 @@ const App = () => {
           </section>
         </div>
         <hr className={styles.divider}></hr>
-      </section>} */}
+      </section>
       
     </div>
   );

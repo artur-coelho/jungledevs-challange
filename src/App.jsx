@@ -1,4 +1,5 @@
 import React from 'react';
+import { Experiment, Variant, emitter, experimentDebugger } from '@marvelapp/react-ab-test';
 import styles from './App.module.css';
 import { BrowserRouter, Link } from 'react-router-dom';
 import Header from './header';
@@ -10,22 +11,45 @@ import SHAREDIMG from './assets/example-image-sec3.png'
 import BILLINGHISTORY from './assets/image-billing-hisotry.png'
 import NOTESTABLET from './assets/image-notes-and-tablet.png'
 import Form from './components/form';
+import Footer from './footer';
 
 const App = () => {
+  
+  React.useEffect(() => {
+    experimentDebugger.enable();
+    emitter.defineVariants('heroSecTest', ['variantA', 'variantB'], [50, 50]);
+    emitter.emitWin('heroSecTest');
+  })
   return (
     <div className={styles.App}>
       <Header />
       <section className={styles.intro}>
         <div className={styles.container}>
           <div className={styles.introContent}>
-            <div className={styles.titleAndDescription}>
-              <h1>Easily create or join a local nanny share with Hapu</h1>
-              <p>Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.</p>
-              <div className={styles.playButton}>
-                <img src={PLAYBUTTON} alt="Botão de da play ilustrativo" />
-                <span>See hapu in action (27 seconds)</span>
-              </div>
-            </div>
+            <Experiment name="heroSecTest">
+              <Variant name="variantA">
+                <div className={styles.titleAndDescription}>
+                  <h1>Easily create or join a local nanny share with Hapu</h1>
+                  <p>Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.</p>
+                  <div className={styles.playButton}>
+                    <img src={PLAYBUTTON} alt="Botão de da play ilustrativo" />
+                    <span>See hapu in action (27 seconds)</span>
+                  </div>
+                </div>
+              </Variant>
+              <Variant name="variantB">
+                <div className={styles.titleAndDescription}>
+                  <h1>Create the childcare you need at a price you can afford</h1>
+                  <p> Connect with other local families to share a nanny from as low as $10.00/hr each. Create your family profile today to get started.</p>
+                  <div className={styles.playButton}>
+                    <img src={PLAYBUTTON} alt="Botão de da play ilustrativo" />
+                    <span>See hapu in action (27 seconds)</span>
+                  </div>
+                  
+                </div>
+               </Variant>
+
+            </Experiment>
             
             <img src={BANNERINTRO} alt="Imagem da intro para demonstração" className={styles.bannerImage} />
           </div>
@@ -118,11 +142,16 @@ const App = () => {
         <div className={styles.container}>
           <section className={styles.shareDiary}>
             <img src={NOTESTABLET} alt="Tablets and notes with diary" />
-            
+            <h2 className={styles.shareDiaryTitle}>Coming soon: Nanny Share Daily Diary!</h2>
+            <p className={styles.shareDiaryText}>
+            With the Hapu daily diary your nanny will be able to update you and your sharers with photos and commentary of the day. You and sharers will receive notifications and you’ll be able to login to view the daily adventures fo your little ones. We can’t wait!
+            </p>
           </section>
         </div>
       </section>
-      
+      <div className={styles.container}>
+        <Footer />
+      </div>
     </div>
   );
 }

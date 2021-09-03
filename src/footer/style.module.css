@@ -51,10 +51,58 @@
   margin-left: 16px;
 }
 
+.divider {
+  display: none;
+}
+
 .copyRight {
   font-family: "Inter" sans-serif;
   font-size: 12px;
   text-align: right;
   color: #3d3d3d;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 420px) {
+  .footer {
+    padding: 40px 0 24px 0;
+    text-align: center;
+  }
+  .footerTitle {
+    font-size: 22px;
+    margin: 0 auto;
+  }
+  .footerSubtitle {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .footerMenu {
+    margin: 48px 0 40px 0;
+    display: block;
+  }
+  .footerMenuLinks {
+    padding: 0 24px 0 56px;
+    margin: 32px auto 24px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footerMenuLinks a {
+    margin: 0 32px 17px 0;
+    line-height: 20px;
+  }
+  .divider {
+    display: block;
+    width: 328px;
+    height: 0px;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 24px;
+  }
+  .socialNetworks {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+  }
 }

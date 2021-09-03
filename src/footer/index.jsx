@@ -33,6 +33,7 @@ const Footer = ({titleStyle, subTitleStyle, linkStyle}) => {
           <SocialIcon socialImg={INSTAGRAMICON} socialLink="https://www.instagram.com" alt="Instagram"/>
         </div>
       </div>
+      <hr className={styles.divider}></hr>
       <small className={styles.copyRight}>Copyright © 2017 Hapu PTY Limited All rights reserved</small>
       </BrowserRouter>
     </div>

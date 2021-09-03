@@ -13,6 +13,7 @@ import INSTAGRAMICON from '../assets/instagram-icon.svg'
 const Footer = ({titleStyle, subTitleStyle, linkStyle}) => {
   return (
     <div className={styles.footer}>
+      <h1 className={styles.hiddenTitle}>Become a Nanny Share Host Footer</h1>
       <BrowserRouter>
       <h2 className={classNames(styles.footerTitle, titleStyle)}>Become a nanny share host</h2>
       <p className={classNames(styles.footerSubtitle, subTitleStyle)}>Takes less than 5 minutes to get started</p>

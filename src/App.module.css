@@ -16,6 +16,51 @@
   border: 2px solid #dfdfdf;
 }
 
+.hiddenTitle {
+  display: none;
+  height: 0;
+  opacity: 0;
+}
+
+/* General styles */
+.h2M28 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #3d3d3d;
+}
+
+.h3M22 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #3d3d3d;
+}
+
+.bodyLargeR18 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.bodyMediumR16 {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4a4a4a;
+}
+
+.linkM16 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #5e20a4;
+}
+
+/* Intro */
 .intro {
   height: 616px;
   width: 100%;
@@ -31,19 +76,13 @@
   font-family: "Inter", sans-serif;
 }
 
-.intro h1 {
+.introTitle {
   font-weight: 500;
   font-size: 40px;
   letter-spacing: -1px;
   line-height: 48px;
   max-width: 490px;
   margin: 200px 0 24px 0;
-}
-
-.titleAndDescription p {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .playButton {
@@ -58,9 +97,7 @@
 }
 
 .playButton span {
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration-line: underline;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -69,6 +106,7 @@
   justify-self: center;
 }
 
+/* Avaliable Profile */
 .avaliableProfile {
   width: 100%;
   height: 112px;
@@ -86,11 +124,6 @@
 
 .linkToProfile {
   margin-right: 2px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration-line: underline;
-  color: #5e20a4;
 }
 
 .avaliableSchedules {
@@ -100,6 +133,7 @@
   color: #000000;
 }
 
+/* Exhibition (Section 1) */
 .exhibitionSection {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -109,69 +143,31 @@
 .exhibitionSectionTitle {
   max-width: 428px;
   margin: 120px 0 40px 0;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 32px;
-  color: #3d3d3d;
 }
 
 .exhibitionSectionText {
   max-width: 444px;
   margin-bottom: 40px;
-  font-family: Inter;
-  font-size: 16px;
-  line-height: 28px;
-  color: #4a4a4a;
-}
-
-.inTextLink {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration-line: underline;
-  color: #5e20a4;
-  cursor: pointer;
-}
-
-.getStartedLink {
-  margin-bottom: 120px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration-line: underline;
-  color: #5e20a4;
-  cursor: pointer;
 }
 
 .exhibitionSectionImage {
   margin: 120px 0;
 }
 
+/* Email form (Section 2) */
 .emailFormSection {
   padding: 64px 100px;
   align-items: center;
   text-align: center;
 }
 
-.emailFormSectionTitle {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 22px;
-  color: #3d3d3d;
-}
-
 .emailFormSectionText {
   margin-top: 16px;
   margin-bottom: 74px;
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  text-align: center;
   color: #3d3d3d;
 }
 
+/* Shared Payments (Section 3) */
 .sharedPayments {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -179,72 +175,32 @@
 }
 
 .sharedPayContent {
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .sharedPayTitle {
   margin-bottom: 40px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  align-items: center;
-  color: #3d3d3d;
 }
 
 .sharedPayText {
   margin-bottom: 40px;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 28px;
-  color: #3d3d3d;
 }
 
-.sharedPaySpan {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration-line: underline;
-  color: #5e20a4;
-  cursor: pointer;
-}
-
+/* Long Term (Section 4) */
 .longTerm {
   padding: 96px 100px 104px 100px;
   text-align: center;
 }
 
-.longTermTitle {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 32px;
-}
-
 .longTermText {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  text-align: center;
-  color: #3d3d3d;
   margin: 40px 100px;
-}
-
-.longTermLink {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration-line: underline;
-  color: #5e20a4;
-  cursor: pointer;
 }
 
 .billingHisotyImg {
   margin-top: 64px;
 }
 
+/* Share Diary (Section 5) */
 .shareDiary {
   padding: 96px 200px 120px 200px;
   justify-content: center;
@@ -253,17 +209,7 @@
 
 .shareDiaryTitle {
   margin: 40px 0px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 32px;
-  color: #3d3d3d;
 }
 
-.shareDiaryText {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  text-align: center;
-  color: #3d3d3d;
+@media screen and (max-width: 420px) {
 }

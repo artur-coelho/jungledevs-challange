@@ -19,7 +19,7 @@ const Header = () => {
           </ul>
         </nav>
         <div className={styles.menuRight}>
-          <Button label="Become a Nanny Share Host" />
+          <Button type="PRIMARY" label="Become a Nanny Share Host" />
           <Link to="" >Sign In</Link>
         </div>
         

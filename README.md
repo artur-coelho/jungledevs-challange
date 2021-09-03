@@ -2,14 +2,16 @@
 
 ## In this project was implemented a simplified version of Hapu’s ‘Become a Nanny Share Host’ view
 
-To get a local copy of the current code, clone it using git:
+A static site can be acessed by the link: 
+https://artur-coelho.github.io/jungledevs-challange/
 
-$ git clone https://github.com/artur-coelho/jungledevs-challange
-$ cd jungledevs-challange
+To get a local copy of the current code, clone it using git:
+git clone https://github.com/artur-coelho/jungledevs-challange
+cd jungledevs-challange
 
 ## How to run the application
 
-Intal the dependecies:
+Install the dependecies:
 npm install
 
 Then:

@@ -24,13 +24,13 @@ const Form = () => {
   }
   return (
     <>
-     <form>
+     <form className={styles.formStyle}>
         <input type="name" name="name" placeholder="Your name" onChange={handleName} className={styles.formInput} />
         <input type="email" name="email" placeholder="Your email" onChange={handleEmail} className={styles.formInput}/>
         <Button type="SEND" isLoading = {loading} label="Send" onClick={handleClick}/>
       </form>
-      {success&&<span>{success}</span>}
-      {error&&<span>{error}</span>}
+      {success&&<span className={styles.successMsg}>{success}</span>}
+      {error&&<span className={styles.errorMsg}>{error}</span>}
     </>
   )
 }

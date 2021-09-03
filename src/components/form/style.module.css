@@ -1,3 +1,9 @@
+.formStyle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
 .formInput {
   width: 232px;
   height: 48px;
@@ -13,4 +19,12 @@
   line-height: 20px;
   align-items: center;
   color: #3d3d3d;
+}
+
+.successMsg {
+  color: green;
+}
+
+.errorMsg {
+  color: red;
 }

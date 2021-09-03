@@ -1,11 +1,10 @@
 import React from 'react'
 import styles from './style.module.css'
 
-
-
-const SocialIcon = ({alt, socialImg}) => {
+const SocialIcon = ({alt, socialLink, socialImg}) => {
   return (
-    <button type="button" alt={alt} className={styles.socialButton}>
+    <button alt={alt} className={styles.socialButton}
+    onClick={() => {window.open(socialLink, "_blank")}}>
       <img src={socialImg} alt="" />
     </button>
   )

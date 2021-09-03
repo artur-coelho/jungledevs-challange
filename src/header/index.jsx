@@ -7,9 +7,10 @@ import Button from '../components/button';
 const Header = () => {
   return (
     <div className={styles.header}>
+      <h1 className={styles.hiddenTitle}>Become a Nanny Share Host Header</h1>
       <BrowserRouter>
         <Link to='' className={styles.logoImage}>
-          <img src={LOGO} alt="Logo da Hapu" />
+          <img src={LOGO} alt="Hapu's logo" />
         </Link>
         <nav className={styles.headerNav}>
           <ul className={styles.headerMenu}>

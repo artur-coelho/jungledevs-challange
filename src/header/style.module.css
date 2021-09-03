@@ -1,3 +1,9 @@
+.hiddenTitle {
+  display: none;
+  height: 0;
+  opacity: 0;
+}
+
 .header {
   width: 100%;
   display: grid;
@@ -35,12 +41,18 @@
   gap: 22px;
 }
 
-@media screen and (max-width: 421px) {
-  .header a {
-    color: red;
+@media screen and (max-width: 420px) {
+  .header {
+    grid-template-columns: auto 0 auto;
+    padding: 0 16px;
   }
   .headerMenu {
     display: none;
+  }
+  .menuRight {
+    padding: 0;
+    grid-template-columns: auto 0;
+    gap: 0;
   }
   .menuRight a {
     display: none;

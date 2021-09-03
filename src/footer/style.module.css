@@ -1,0 +1,54 @@
+.footer {
+  padding: 80px 0px 32px 0px;
+  text-align: center;
+}
+
+.footerTitle {
+  margin-bottom: 16px;
+}
+
+.footerSubtitle {
+  margin-bottom: 32px;
+}
+
+.localNannyLink {
+  margin-top: 24px;
+  display: block;
+}
+
+.footerMenu {
+  margin: 82px 0 90px 0;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  align-items: center;
+}
+
+.footerMenuLinks {
+  justify-self: center;
+  justify-content: center;
+}
+
+.footerMenuLinks a {
+  margin-right: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+.socialNetworks {
+  justify-self: end;
+}
+
+.socialNetworks button {
+  margin-left: 16px;
+}
+
+.copyRight {
+  font-family: "Inter" sans-serif;
+  font-size: 12px;
+  text-align: right;
+  color: #3d3d3d;
+  opacity: 0.6;
+}

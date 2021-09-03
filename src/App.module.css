@@ -297,4 +297,23 @@
     margin: 16px auto 32px auto;
   }
   /* Shared payments (Section 3) */
+  .sharedPayments {
+    display: block;
+    padding: 64px 0;
+    text-align: center;
+  }
+  .sharedPaymentsImg {
+    width: 312px;
+  }
+  .sharedPayContent {
+    align-self: flex-start;
+  }
+  .sharedPayTitle {
+    max-width: 226px;
+    margin: 40px auto 16px auto;
+    font-size: 22px;
+  }
+  .sharedPayText {
+    margin-bottom: 24px;
+  }
 }

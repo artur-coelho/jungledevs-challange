@@ -107,7 +107,7 @@ const App = () => {
             <div className={styles.container}>
               <section className={styles.sharedPayments}>
                 <h1 className={styles.hiddenTitle}>Possibility of shared payment </h1>
-                <img src={SHAREDIMG} alt="Form options for shared payments." />
+                <img src={SHAREDIMG} alt="Form options for shared payments." className={styles.sharedPaymentsImg} />
                 <div className={styles.sharedPayContent}>
                   <h2 className={classNames(styles.sharedPayTitle, styles.h2M28)}>Shared payments made simple</h2>
                   <p className={classNames(styles.sharedPayText, styles.bodyMediumR16)}>

@@ -54,3 +54,10 @@ button {
   font-size: 12px;
   line-height: 16px;
 }
+
+@media screen and (max-width: 420px) {
+  .sendButton {
+    width: 328px;
+    margin-top: 8px;
+  }
+}

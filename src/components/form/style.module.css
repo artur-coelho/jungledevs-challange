@@ -28,3 +28,13 @@
 .errorMsg {
   color: red;
 }
+
+@media screen and (max-width: 420px) {
+  .formStyle {
+    display: block;
+  }
+  .formInput {
+    width: 328px;
+    margin: 0px auto 10px auto;
+  }
+}

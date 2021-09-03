@@ -212,4 +212,58 @@
 }
 
 @media screen and (max-width: 420px) {
+  .container {
+    padding: 0px 16px;
+    width: 100%;
+  }
+  /* Intro */
+  .intro {
+    height: 540px;
+    width: 100%;
+    background: url("./assets/background-intro-mobile.png"),
+      linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%),
+      no-repeat;
+  }
+  .introContent {
+    display: flex;
+    text-align: center;
+  }
+  .introTitle {
+    margin: 152px 28px 16px 28px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0;
+  }
+  .introContent p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .playButton {
+    margin: 66px 0 78px 0;
+  }
+  .bannerImage {
+    display: none;
+  }
+  /* Avaliable Profile */
+  .avaliableProfile {
+    height: 246px;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: flex-start;
+    justify-items: center;
+  }
+  .avaliableProfile img {
+    margin: 32px 0 16px 0;
+  }
+  .linkToProfile {
+    max-width: 212px;
+    margin-right: 0;
+  }
+  .avaliableSchedules {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
 }

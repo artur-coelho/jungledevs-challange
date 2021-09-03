@@ -51,7 +51,7 @@ const App = () => {
                     </div>
                   </Variant>
                 </Experiment>            
-                <img src={BANNERINTRO} alt="New nanny joined the share." className={styles.bannerImage} />
+                <img src={BANNERINTRO} alt="Manage your nanny share." className={styles.bannerImage} />
               </div>
             </div>
           </section>

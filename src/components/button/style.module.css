@@ -1,14 +1,56 @@
+button {
+  cursor: pointer;
+}
+
 .primaryButton {
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 20px;
   text-align: center;
 
   color: #ffffff;
   padding: 12px 20px;
-  justify-self: flex-end;
   background-color: #00a870;
   border-radius: 4px;
+}
+
+.sendButton {
+  width: 96px;
+  height: 48px;
+  padding: 14px 32px;
+}
+
+.loadingImg {
+  height: 25px;
+  width: 25px;
+}
+
+.loadCursor {
+  cursor: progress;
+}
+
+.secondaryButton {
+  margin: 0 auto;
+  padding: 10px 37px 14px 25px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 21px;
+  align-self: center;
+  align-items: center;
+  background: #5e20a4;
+  border-radius: 4px;
+  text-align: start;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+.buttonTitle {
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.buttonText {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
 }

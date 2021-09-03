@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/jungledevs-challange/static/css/main.fe4bf67e.chunk.css",
+    "main.js": "/jungledevs-challange/static/js/main.1859459c.chunk.js",
+    "main.js.map": "/jungledevs-challange/static/js/main.1859459c.chunk.js.map",
+    "runtime-main.js": "/jungledevs-challange/static/js/runtime-main.9cd88f92.js",
+    "runtime-main.js.map": "/jungledevs-challange/static/js/runtime-main.9cd88f92.js.map",
+    "static/js/2.01c6ba0b.chunk.js": "/jungledevs-challange/static/js/2.01c6ba0b.chunk.js",
+    "static/js/2.01c6ba0b.chunk.js.map": "/jungledevs-challange/static/js/2.01c6ba0b.chunk.js.map",
+    "index.html": "/jungledevs-challange/index.html",
+    "static/css/main.fe4bf67e.chunk.css.map": "/jungledevs-challange/static/css/main.fe4bf67e.chunk.css.map",
+    "static/js/2.01c6ba0b.chunk.js.LICENSE.txt": "/jungledevs-challange/static/js/2.01c6ba0b.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/jungledevs-challange/static/media/background-intro.e9d98a0d.png",
+    "static/media/calendar-icon.6f038d2a.svg": "/jungledevs-challange/static/media/calendar-icon.6f038d2a.svg",
+    "static/media/example-image-sec3.f1839ba7.png": "/jungledevs-challange/static/media/example-image-sec3.f1839ba7.png",
+    "static/media/facebook-icon.52d5df86.svg": "/jungledevs-challange/static/media/facebook-icon.52d5df86.svg",
+    "static/media/image-billing-hisotry.57ad9e94.png": "/jungledevs-challange/static/media/image-billing-hisotry.57ad9e94.png",
+    "static/media/image-intro.c483afe1.png": "/jungledevs-challange/static/media/image-intro.c483afe1.png",
+    "static/media/image-notebook.210be842.png": "/jungledevs-challange/static/media/image-notebook.210be842.png",
+    "static/media/instagram-icon.75afcdcd.svg": "/jungledevs-challange/static/media/instagram-icon.75afcdcd.svg",
+    "static/media/logo-footer.f5bd6642.svg": "/jungledevs-challange/static/media/logo-footer.f5bd6642.svg",
+    "static/media/logo.8c2000ef.svg": "/jungledevs-challange/static/media/logo.8c2000ef.svg",
+    "static/media/play-button.7a34ea28.svg": "/jungledevs-challange/static/media/play-button.7a34ea28.svg",
+    "static/media/twitter-icon.eb814650.svg": "/jungledevs-challange/static/media/twitter-icon.eb814650.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cd88f92.js",
+    "static/js/2.01c6ba0b.chunk.js",
+    "static/css/main.fe4bf67e.chunk.css",
+    "static/js/main.1859459c.chunk.js"
+  ]
+}

@@ -296,7 +296,7 @@
     line-height: 28px;
     margin: 16px auto 32px auto;
   }
-  /* Shared payments (Section 3) */
+  /* Shared Payments (Section 3) */
   .sharedPayments {
     display: block;
     padding: 64px 0;
@@ -315,5 +315,31 @@
   }
   .sharedPayText {
     margin-bottom: 24px;
+  }
+  /* Long Term (Section 4) */
+  .longTerm {
+    padding: 64px 0;
+    text-align: center;
+  }
+  .longTermTitle {
+    margin: 0 auto;
+    max-width: 226px;
+    font-size: 22px;
+  }
+  .longTermText {
+    margin: 16px 0 24px 0;
+  }
+  .billingHisotyImg {
+    display: none;
+  }
+  /* Share Diary (Section 5) */
+  .shareDiary {
+    padding: 64px 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .shareDiaryTitle {
+    margin: 24px auto 16px auto;
+    font-size: 22px;
   }
 }

@@ -126,7 +126,7 @@ const App = () => {
             <div className={styles.container}>
               <section className={styles.longTerm}>
                 <h1 className={styles.hiddenTitle}>Long term app.</h1>
-                <h2 className={styles.h2M28}>
+                <h2 className={classNames(styles.longTermTitle ,styles.h2M28)}>
                   A framework built for the long term
                 </h2>
                 <p className={classNames(styles.longTermText, styles.bodyMediumR16)}>

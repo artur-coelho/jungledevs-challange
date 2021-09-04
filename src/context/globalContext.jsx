@@ -10,7 +10,6 @@ export const Storage = ({children}) => {
     setLoading(true);
     try {
       const response = await postEmail(body);
-      console.log('Carregando')
       window.setTimeout(() => {
       if(response.detail) {
         setSuccess("Success!");
@@ -26,13 +25,10 @@ export const Storage = ({children}) => {
         setSuccess(null);
       }
     },2000)
-    console.log('resposta')
     } catch(err) {
-      console.log(err);
       return "Something went wrong";
     } finally {
       setLoading(false);
-      console.log('Terminou')
     }
   }
 

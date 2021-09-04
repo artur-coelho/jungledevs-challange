@@ -11,13 +11,11 @@ const Button = ({type, label, subLabel, onClick, isLoading, buttonImage, alt}) =
           {label}
         </button>
     }
-
     {type === "SEND" && 
         <button alt={alt} className={isLoading ?  classNames(styles.primaryButton, styles.sendButton, styles.loadCursor) : classNames(styles.primaryButton, styles.sendButton)} onClick={onClick}>
           {isLoading ? <img src={LOADING} alt="" className={styles.loadingImg}></img> : label}
         </button>
     }
-
     {type === "SECONDARY" && 
         <button alt={alt} className={styles.secondaryButton} onClick={onClick}>
           <img src={buttonImage} alt=""></img>
@@ -27,7 +25,6 @@ const Button = ({type, label, subLabel, onClick, isLoading, buttonImage, alt}) =
           </div>
         </button>
     }
-
     </>
   )
 }

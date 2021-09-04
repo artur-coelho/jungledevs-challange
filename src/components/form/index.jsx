@@ -36,7 +36,3 @@ const Form = () => {
 }
 
 export default Form
-
-//email: ["Enter a valid email address."]
-//name: ["This field may not be blank."]
-//email: ["This field may not be blank."]

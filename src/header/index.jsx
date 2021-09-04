@@ -22,10 +22,8 @@ const Header = () => {
         <div className={styles.menuRight}>
           <Button type="PRIMARY" label="Become a Nanny Share Host" />
           <Link to="" >Sign In</Link>
-        </div>
-        
+        </div>      
       </BrowserRouter>
-
     </div>
   )
 }

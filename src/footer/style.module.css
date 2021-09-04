@@ -98,7 +98,7 @@
     width: 328px;
     height: 0px;
     border: 1px solid #dfdfdf;
-    margin-bottom: 24px;
+    margin: 0 auto 24px auto;
   }
   .socialNetworks {
     display: flex;
